@@ -1,0 +1,16 @@
+MoSCoW:
+Must-have:
+              Fixed range of a day
+              One job displayed at a time
+              Data: Pass/fail rate + restore time where restore time is get the last failed build and check its restore time
+Should-have:
+              Variable range of time period
+              Display multiple jobs at once
+              Data: Average restore time across all failed builds
+Could-have:
+              Compare jobs/repositories
+              Long-term trends for jobs
+              A nice interface, Bootstrap
+Would-have:
+              Charts to display data nicely, pie charts etc
+              Different servers

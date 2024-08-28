@@ -1,0 +1,55 @@
+body {
+    font-family: "Ericsson Hilda",Helvetica,Arial,sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+td, th {
+    border: 1px solid;
+    text-align: centre;
+    padding: 8px;
+}
+tr{
+    background-color: #dddddd;
+}
+.panel{
+    display: inline;
+}
+
+.jumbotron {
+    background-color: lightblue;
+}
+
+#main-content-container {
+    margin-top: 100px;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+#submit-btn {
+    margin-top: 1%;
+}
+
+/* .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #F8FCFF;
+ } */
+
+ #body-bg {
+     background-color: l;
+ }
+
+ #main {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+ }
+
+ #body-container {
+     padding-bottom: 20px;
+ }
+

@@ -1,0 +1,23 @@
+services:
+  sql:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=bootdb
+    ports:
+      - "3306:3306"
+    networks:
+      - web-mysql
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    networks:
+      - web-mysql
+    links:
+      - sql
+    depends_on:
+      - sql
+
+networks:
+  web-mysql:

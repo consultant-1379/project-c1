@@ -1,0 +1,19 @@
+Monday:
+Database setup - Jack
+Jenkins connection - Sam
+Wireframe - Kevin
+Spring project - Daniel
+
+Tuesday:
+Connect + test what was completed on Mon
+Basic HTML webpage
+
+Wednesday:
+Pretty up webpage: CSS - Bootstrap
+Practice presentation
+
+Thursday:
+Dockerise application
+
+
+
